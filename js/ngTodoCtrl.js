@@ -1,4 +1,4 @@
-ngTodo.controller('ngTodoCtrl', function($scope, $filter) {
+ngControllers.controller('ngTodoCtrl', function($scope, $filter) {
     $scope.todos = [
         { val: "A new cool thing", completed: true},
         { val: "Get milk", completed: false},
